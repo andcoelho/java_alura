@@ -5,7 +5,7 @@ public class Conta {
 	int numero;
 	String titular;
 	
-	public void deposita(double valor) {
-		this.saldo += valor;
+	void deposita(double valor) {
+		saldo += valor;
 	}
 }

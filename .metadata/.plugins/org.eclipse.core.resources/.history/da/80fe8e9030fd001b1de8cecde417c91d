@@ -19,9 +19,7 @@ public class CriaConta {
 		
 		System.out.println(primeiraConta.agencia); 
 		System.out.println(primeiraConta.numero); //os atributos iniciam com valor zero.
-		
-		segundaConta.agencia = 146;
-		System.out.println("A segunda conta está na agencia:" + segundaConta.agencia);
+
 
 	}
 
