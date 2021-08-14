@@ -23,7 +23,7 @@ public class Conta {
 		if(this.saldo >= valor)	 {
 			this.saldo -= valor;
 			//destino.saldo += valor;
-			destino.deposita(valor); // chama o método deposita para a Conta destino
+			destino.deposita(valor);
 			return true;
 		} else {
 			return false;

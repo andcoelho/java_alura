@@ -20,16 +20,8 @@ public class Conta {
 	}
 	
 	public boolean transfere(double valor, Conta destino) { //Recebe a referência da conta para onde o dinheiro vai
-		if(this.saldo >= valor)	 {
-			this.saldo -= valor;
-			//destino.saldo += valor;
-			destino.deposita(valor); // chama o método deposita para a Conta destino
-			return true;
-		} else {
-			return false;
-		}
-		
-		
+		saldo += valor;		
+		return true;
 		
 	}
 }

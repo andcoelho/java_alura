@@ -13,7 +13,7 @@ public class TestaMetodo {
 		
 		Conta contaDaMarcela = new Conta();
 		contaDaMarcela.deposita(1000);
-		if(contaDaMarcela.transfere(300, contaDoPaulo)) {
+		if(contaDaMarcela.transfere(3000, contaDoPaulo)) {
 			System.out.println("Tranferência realizada com sucesso.");
 		}
 		else {
